@@ -1,0 +1,123 @@
+/* style.css */
+
+body{
+  background: #fff;
+  color: #000000; 
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:0;
+}
+
+nav{
+  display:inline;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+} 
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color:  #41A3C0; 
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+.feature {
+border: 1px solid #000000;
+margin: 30px;
+padding: 30px;
+text-align: center;
+width: 400px;
+background-image: url(brick-background.jpg);
+}
+
+
+p{
+  color: #000000;
+}
+
+a { 
+  color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0036FF;
+}
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+  color: #0036FF;
+
+}
+
+#logo{
+  color: #0036FF;
+  font-size: 55px;
+  font-family: 'Permanent Marker', cursive;
+  float: left;
+  margin-left: 50px;
+}
+
+/* Mis en forme de la baseline */
+#baseline{
+  background-color: #000000;
+  text-align: center;
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#baseline h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+#baseline a {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+#baseline a:hover {
+  position: relative;
+  top:5px;
+  color: #0036FF; ;
+}
+
+#apropos{
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#download{
+  color: #0036FF;
+  text-align:center;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+#CMI{
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-bottom: 50px;
